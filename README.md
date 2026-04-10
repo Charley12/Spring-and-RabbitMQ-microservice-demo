@@ -1,2 +1,8 @@
 # Spring-and-RabbitMQ-microservice-demo
-Just a try
+
+log:
+1.add api-gateway
+2.add patient-service
+3.add appointment-service
+
+
