@@ -9,22 +9,6 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-        - id: account-service
-          uri: lb://account-service
-          predicates:
-            - Path=/accounts/**
-        - id: statistics-service
-          uri: lb://statistics-service
-          predicates:
-            - Path=/statistics/**
-        - id: notification-service
-          uri: lb://notification-service
-          predicates:
-            - Path=/notifications/**
-        - id: auth-service
-          uri: lb://auth-service
-          predicates:
-            - Path=/uaa/**
         - id: patient-service
           uri: lb://patient-service
           predicates:
