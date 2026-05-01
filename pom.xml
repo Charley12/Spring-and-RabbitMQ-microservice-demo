@@ -36,6 +36,7 @@
 	<modules>
 		<module>gateway</module>
 		<module>patient-service</module>
+		<module>appointment-service</module>
 	</modules>
 
 </project>
